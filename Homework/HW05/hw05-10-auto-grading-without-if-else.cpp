@@ -36,7 +36,7 @@ int main() {
     scanf("%d", &rawScore);
 
     switch (rawScore) {
-        case 80:
+        case 80 :
             printf("A !\n");
             break;
         case 75:
@@ -45,10 +45,10 @@ int main() {
         case 70:
             printf("B !\n");
             break;
-        case 64:
+        case 65:
             printf("C+ !\n");
             break;
-        case 60:
+        case 64:
             printf("C !\n");
             break;
         case 55:
