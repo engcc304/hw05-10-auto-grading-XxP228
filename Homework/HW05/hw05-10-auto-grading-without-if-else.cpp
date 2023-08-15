@@ -45,7 +45,7 @@ int main() {
         case 70:
             printf("B !\n");
             break;
-        case 65:
+        case 64:
             printf("C+ !\n");
             break;
         case 60:
@@ -57,7 +57,7 @@ int main() {
         case 50:
             printf("D !\n");
             break;
-        case 40:
+        case 44:
             printf("F !\n");
             break;
         default:
