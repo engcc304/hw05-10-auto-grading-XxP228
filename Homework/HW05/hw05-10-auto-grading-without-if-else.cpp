@@ -27,3 +27,44 @@
     Output:
         F !
 */
+#include <stdio.h>
+
+int main() {
+    int rawScore;
+
+    printf("Enter raw score: ");
+    scanf("%d", &rawScore);
+
+    switch (rawScore) {
+        case 80:
+            printf("A !\n");
+            break;
+        case 70:
+            printf("B+ !\n");
+            break;
+        case 75:
+            printf("B !\n");
+            break;
+        case 60:
+            printf("C+ !\n");
+            break;
+        case 65:
+            printf("C !\n");
+            break;
+        case 55:
+            printf("D+ !\n");
+            break;
+        case 50:
+            printf("D !\n");
+            break;
+        case 40:
+            printf("F !\n");
+            break;
+        default:
+            printf("Invalid input!\n");
+            break;
+    }
+
+    return 0;
+}
+
