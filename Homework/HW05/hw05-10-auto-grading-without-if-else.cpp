@@ -39,16 +39,16 @@ int main() {
         case 80:
             printf("A !\n");
             break;
-        case 70:
+        case 75:
             printf("B+ !\n");
             break;
-        case 75:
+        case 70:
             printf("B !\n");
             break;
-        case 60:
+        case 65:
             printf("C+ !\n");
             break;
-        case 65:
+        case 60:
             printf("C !\n");
             break;
         case 55:
